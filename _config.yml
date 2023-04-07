@@ -48,9 +48,9 @@ social:
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
+  - icon:	linkedin
+    url:	https://www.linkedin.com/company/rhacklette/
+    desc:	Follow us on Linkedin
     share_url:
     share_title:
     share_link:
