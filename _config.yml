@@ -1,1 +1,63 @@
-theme: minima
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
+# Site settings
+title: "Rhacklette"
+description: > # this means to ignore newlines until "email:"
+   CH based FINTA cybersecurity enthusiasts
+
+email: rhacklette@defconswitzerland.org
+#blog logo
+logo: "/assets/images/RH7.png"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/images/RH6.png"
+
+name: 'Rhacklette'
+author: 'Rhacklette'
+author_image: "/assets/images/RH7.png"
+
+paginate:	5
+
+url: "http://myblog.***.***" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@rhacklette41'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/rhacklette41
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/dirkfabisch
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	linkedin
+#    url:	https://lnkedin.com/rhacklette41
+#    desc:	Follow us on Linkedin
+#    share_url:
+#    share_title:
+#    share_link:
