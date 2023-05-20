@@ -1,6 +1,13 @@
 <!-- header start -->
 
 {% if site.float_logo %}
-  <a href="{{ site.url }}{{ site.baseurl }}" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo }})"></span></a>
+<a href="{{ site.url }}{{ site.baseurl }}" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo }})"></span></a>
+  <div class="navbar">
+    
+    <a class="active link-nav left-a" href="{{ site.url }}{{ site.baseurl }}">Home</a>
+    <a class="link-nav" href={{ "/contacts/" | prepend: site.baseurl }}>Contact</a>
+    <a class="link-nav" href={{ "/about/" | prepend: site.baseurl }}>About</a>
+    
+  </div>
 {% endif %}
 <!-- header end -->

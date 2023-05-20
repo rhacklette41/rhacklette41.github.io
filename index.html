@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="teaserimage">
-    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }}); margin: 7rem; background-repeat: no-repeat;
+    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }}); margin: 2rem; background-repeat: no-repeat;
     background-size: contain;"{% endif %}>
         Teaser Image
     </div>
 </div>
 
-<header class="blog-header">
+<!--<header class="blog-header">
     {% if site.logo %}
       <img class="blog-logo" src="{{site.baseurl}}{{site.logo}}"></img>
     {% endif %}
@@ -27,7 +27,7 @@ layout: default
       <a href={{ "/about/" | prepend: site.baseurl }}>About</a> | 
       <a href={{ "/contacts/" | prepend: site.baseurl }}>Contacts</a>
     </div>
-</header>
+</header> -->
 
 
 <main class="content" role="main">
@@ -65,7 +65,7 @@ layout: default
               <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
