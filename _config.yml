@@ -8,7 +8,7 @@ title: "Rhacklette"
 description: > # this means to ignore newlines until "email:"
    CH based FINTA cybersecurity enthusiasts
 
-email: rhacklette@defconswitzerland.org
+email: rhacklette@defcon-switzerland.org
 #blog logo
 logo: "/assets/images/RH7.png"
 float_logo: true # true, false (default)
@@ -22,7 +22,7 @@ author_image: "/assets/images/RH7.png"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "https://rhacklette41.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@rhacklette41'
