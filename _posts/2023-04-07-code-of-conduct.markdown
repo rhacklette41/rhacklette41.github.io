@@ -2,7 +2,6 @@
 layout: post
 title:  "Code of Conduct"
 date:   2023-04-07 16:34:25
-categories: updates
 
 ---
 # Code of Conduct for Rhacklette #
