@@ -42,9 +42,10 @@ The training program and CTF competitions offer a number of benefits, including:
 Our training is a safe and welcoming space for FINTA individuals to learn about cybersecurity and participate in CTF competitions. We are committed to creating a non-judgemental environment where everyone can feel comfortable asking questions and sharing their ideas. Our instructors are experienced and knowledgeable, and they are passionate about helping FINTA individuals succeed in cybersecurity. We offer a variety of resources, including practice problems and tutorials, to help you learn at your own pace. 
 
 
-## When?
+## When and where?
 
 The first training session will be on the 17th September and we'll focus on reverse engineering!
+It will be held in person, in Zurich, exact location TBA.
 
 
 ## Conclusion
