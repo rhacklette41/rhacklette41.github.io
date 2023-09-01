@@ -5,8 +5,6 @@ date:   2023-09-01 09:40:25
 
 ---
 
-## Overview
-
 This document outlines the training program for capture the flag (CTF) challenges that takes place once a month. The program is designed to help you learn the skills you need to pwn all the things and become a master hacker. The program is open to all skill levels, and we encourage you to work together to learn and grow.
 
 
