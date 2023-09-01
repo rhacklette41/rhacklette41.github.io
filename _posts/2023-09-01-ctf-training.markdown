@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CTF Training"
-date:   2023-09-01 09:40:25
+date:   2023-09-01 07:40:25
 
 ---
 
